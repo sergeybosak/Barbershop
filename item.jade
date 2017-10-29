@@ -1,0 +1,60 @@
+doctype html
+html(lang = "ru")
+	head
+		title= "Barbershop"
+		meta(charset = "utf-8")
+		link(href="styles/css.css" rel="stylesheet")
+		link(href="styles/reset.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet")
+	body.body
+		header.header
+			.container
+				nav.navigation
+					ul
+						li(href="")
+							a(href='index.html') Главная
+						li
+							a(href='') Информация
+						li
+							a(href='') Новости
+						li
+							a(href='price.html') Прайс-лист
+						li(class="active")
+							a(href='shop.html') Магазин
+						li
+							a(href='') Контакты
+						li.login
+							a(href='') Вход
+		main.page-shop
+			.container
+				h1(class="page-title") BARBERSHOP BORODINSKI - МАГАЗИН
+				.breadcrumbs
+					.row
+						ul
+							li
+								a(href='') ГЛАВНАЯ
+							li
+								a(href='') МАГАЗИН
+							li
+								a(href="") СРЕДСТВА ДЛЯ УХОДА 
+	footer.footer
+			.container
+				.row
+					.adress
+						.col.col-4
+							p BARBERSHOP «BORODINSKI»
+								br
+								|АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13
+								br
+								|ТЕЛЕФОН: +7 (495) 666-02-666
+					.social-icons
+						.col.col-4
+							p ДАВАЙТЕ ДРУЖИТЬ!
+							a(href="#" class="link vk" target="_blank")
+							a(href="#" class="link fb" target="_blank")
+							a(href="#" class="link insta" target="_blank")
+					.designer
+						.col.col-2.offset-2
+							p ДИЗАЙН САЙТА
+							a(href="http://glukhanko.ru/" class="btn") GLUKHANKO.RU
+	script(src="js/main.js")

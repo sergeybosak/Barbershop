@@ -1,0 +1,156 @@
+doctype html
+html(lang = "ru")
+	head
+		title= "Barbershop"
+		meta(charset = "utf-8")
+		link(href="styles/css.css" rel="stylesheet")
+		link(href="styles/reset.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet")
+	body.body
+		header.header
+			.container
+				nav.navigation
+					ul
+						li(href="")
+							a(href='index.html') Главная
+						li
+							a(href='') Информация
+						li
+							a(href='') Новости
+						li
+							a(href='price.html') Прайс-лист
+						li(class="active")
+							a(href='shop.html') Магазин
+						li
+							a(href='') Контакты
+						li.login
+							a(href='') Вход
+		main.page-shop
+			.container
+				h1(class="page-title") BARBERSHOP BORODINSKI - МАГАЗИН
+				.breadcrumbs
+					.row
+						ul
+							li
+								a(href='') ГЛАВНАЯ
+							li
+								a(href='') МАГАЗИН
+							li
+								a(href="") СРЕДСТВА ДЛЯ УХОДА
+				.row
+					.col.col-3
+						.manufacturers
+							form.form-catalog
+								h1 ПРОИЗВОДИТЕЛИ
+								.form-row
+									input(type="checkbox" id="c1")
+									label(for="c1") BAXTER OF CALIFORNIA
+								.form-row
+									input(type="checkbox" id="c2" checked)
+									label(for="c2") MR NATTY
+								.form-row
+									input(type="checkbox" id="c3")
+									label(for="c3") SUAVECITO
+								.form-row
+									input(type="checkbox" id="c4" checked)
+									label(for="c4") MALIN+GOETZ
+								.form-row
+									input(type="checkbox" id="c5")
+									label(for="c5") MURRAY’S
+								.form-row
+									input(type="checkbox" id="c6" checked)
+									label(for="c6") AMERICAN CREW
+						.goods
+							form.form-catalog
+								h1 ГРУППЫ ТОВАРОВ:
+								.form-row
+									input(type="radio" name="radio" id="r1" checked)
+									label(for="r1") БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+								.form-row
+									input(type="radio" name="radio" id="r2")
+									label(for="r2") СРЕДСТВА ДЛЯ УХОДА
+								.form-row.disabled
+									input(type="radio" name="radio" id="r3" disabled)
+									label(for="r3") АКСЕССУАРЫ
+					.col.col-9
+						.items
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-1.jpg", alt="" width="220" height="165")
+								.description
+									h2 BAXTER OF CALIFORNIA
+									p Набор для путешествий
+									.price
+										.text 2 900 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-2.jpg", alt="" width="220" height="165")
+								.description
+									h2 BAXTER OF CALIFORNIA
+									p Увлажняющий кондиционер
+									.price
+										.text 750 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-3.jpg", alt="" width="220" height="165")
+								.description
+									h2 SUAVECITO
+									p Гель для волос
+									.price
+										.text 290 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-4.jpg", alt="" width="220" height="165")
+								.description
+									h2 AMERICAN CREW
+									p Глина для укладки волос
+									.price
+										.text 500 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-5.jpg", alt="" width="220" height="165")
+								.description
+									h2 AMERICAN CREW
+									p Гель для волос
+									.price
+										.text 300 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							figure.card
+								a(href="")
+									img(src="img/catalog-content-6.jpg", alt="" width="220" height="165")
+								.description
+									h2 BAXTER OF CALIFORNIA
+									p Набор для бритья
+									.price
+										.text 3 900 РУБ.
+										a(href="" class="btn") КУПИТЬ	
+							.paginator
+								a(href="" class="btn") 1
+								a(href="" class="btn active") 2
+								a(href="" class="btn") 3
+								a(href="" class="btn") 4
+	footer.footer
+			.container
+				.row
+					.adress
+						.col.col-4
+							p BARBERSHOP «BORODINSKI»
+								br
+								|АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13
+								br
+								|ТЕЛЕФОН: +7 (495) 666-02-666
+					.social-icons
+						.col.col-4
+							p ДАВАЙТЕ ДРУЖИТЬ!
+							a(href="#" class="link vk" target="_blank")
+							a(href="#" class="link fb" target="_blank")
+							a(href="#" class="link insta" target="_blank")
+					.designer
+						.col.col-2.offset-2
+							p ДИЗАЙН САЙТА
+							a(href="http://glukhanko.ru/" class="btn") GLUKHANKO.RU
+	script(src="js/main.js")

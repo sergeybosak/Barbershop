@@ -1,0 +1,93 @@
+doctype html
+html(lang = "ru")
+	head
+		title= "Barbershop"
+		meta(charset = "utf-8")
+		link(href="styles/css.css" rel="stylesheet")
+		link(href="styles/reset.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet")
+	body.body
+		header.header
+			.container
+				nav.navigation
+					ul
+						li(href="")
+							a(href='index.html') Главная
+						li
+							a(href='') Информация
+						li
+							a(href='') Новости
+						li(class="active")
+							a(href='price.html') Прайс-лист
+						li
+							a(href='shop.html') Магазин
+						li
+							a(href='') Контакты
+						li.login
+							a(href='') Вход
+		main.page-price
+			.container
+				h1(class="page-title") BARBERSHOP BORODINSKI - ПРАЙС-ЛИСТ
+				.breadcrumbs
+					.row
+						ul
+							li
+								a(href='') ГЛАВНАЯ
+							li
+								a(href='') ПРАЙС-ЛИСТ
+				h1.main-title ИСТИННО МУЖСКАЯ КЛАССИКА
+				.facilities-price
+					.row
+						.facilities
+							.col.col-6
+								h1 МЫ ИСПОЛЬЗУЕМ ТОЛЬКО
+									br
+									|ЛУЧШИЕ СРЕДСТВА:
+								ul.facilities-list
+									li BAXTER OF CALIFORNIA
+									li MR NATTY
+									li SUAVECITO
+									li MALIN+GOETZ
+						.price
+							.col.col-6
+								h1 ЦЕНЫ НА УСЛУГИ
+									br
+									|НАШИХ МАСТЕРОВ:
+								table
+									tr
+										td СТРИЖКА
+										td 1500 Р.
+									tr
+										td СТРИЖКА БОРОДЫ
+										td 500 Р.
+									tr
+										td НАКРУТКА УСОВ
+										td 350 Р.
+				.about-us
+					.row
+						h1 НЕСКОЛЬКО СЛОВ О НАС:
+						.col.col-5
+							p НАША ПАРИКМАХЕРСКАЯ ЗАНИМАЕТСЯ ИСКЛЮЧИТЕЛЬНО МУЖСКИМИ СТРИЖКАМИ. СТРИЖКА КАЖДОГО КЛИЕНТА ДЛЯ НАС - ЭТО УНИКАЛЬНАЯ И ПРОДУМАННАЯ ДО МЕЛОЧЕЙ РАБОТА. МЫ НЕ РАБОТАЕМ НА КОЛИЧЕСТВО, МЫ ДЕЛАЕМ КАЧЕСТВО.
+						.col.col-5.offset-1
+							p НАША МАСТЕРСКАЯ РАСПОЛОЖЕНА В ЦЕНТРЕ ГОРОДА, ПОЭТОМУ СДЕЛАТЬ СТИЛЬНУЮ СТРИЖКУ МОЖНО В ЛЮБОЕ ВРЕМЯ, ДАЖЕ В ОБЕДЕННЫЙ ПЕРЕРЫВ. ЗДЕСЬ ВЫ МОЖЕТЕ ПОГРУЗИТЬСЯ В УДОБНУЮ ДЛЯ ВАС АТМОСФЕРУ, ЧУВСТВОВАТЬ СЕБЯ КОМФОРТНО И СВОБОДНО!
+	footer.footer
+			.container
+				.row
+					.adress
+						.col.col-4
+							p BARBERSHOP «BORODINSKI»
+								br
+								|АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13
+								br
+								|ТЕЛЕФОН: +7 (495) 666-02-666
+					.social-icons
+						.col.col-4
+							p ДАВАЙТЕ ДРУЖИТЬ!
+							a(href="#" class="link vk" target="_blank")
+							a(href="#" class="link fb" target="_blank")
+							a(href="#" class="link insta" target="_blank")
+					.designer
+						.col.col-2.offset-2
+							p ДИЗАЙН САЙТА
+							a(href="http://glukhanko.ru/" class="btn") GLUKHANKO.RU
+	script(src="js/main.js")

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Barbershop</title>
+    <meta charset="utf-8">
+    <link href="styles/css.css" rel="stylesheet">
+    <link href="styles/reset.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+  </head>
+  <body class="body">
+    <header class="header">
+      <div class="container">
+        <nav class="navigation">
+          <ul>
+            <li class="active"><a href="index.html">Главная</a></li>
+            <li><a href="">Информация</a></li>
+            <li><a href="">Новости</a></li>
+            <li><a href="price.html">Прайс-лист</a></li>
+            <li><a href="shop.html">Магазин</a></li>
+            <li><a href="">Контакты</a></li>
+            <li class="login"><a href="">Вход</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main-index">
+      <div class="container">
+        <div class="logo"></div>
+        <div class="feature">
+          <div class="row">
+            <div class="feature-item">
+              <div class="col col-4">
+                <h1>БЫСТРО</h1>
+                <p>МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО, И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!</p>
+              </div>
+              <div class="feature-item col col-4">
+                <h1>КРУТО</h1>
+                <p>ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.</p>
+              </div>
+              <div class="feature-item col col-4">
+                <h1>ДОРОГО</h1>
+                <p>НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="block">
+          <div class="row">
+            <div class="news">
+              <div class="col col-5">
+                <h1>НОВОСТИ</h1>
+                <div class="articles">
+                  <p>НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ</p>
+                  <p class="date">25 сентября</p>
+                </div>
+                <div class="articles last-child">
+                  <p>В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД, ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ</p>
+                  <p class="date">19 сентября</p>
+                </div><a class="btn" href="">ВСЕ НОВОСТИ</a>
+              </div>
+            </div>
+            <div class="gallery">
+              <div class="col col-5 offset-2">
+                <h1>ФОТОГАЛЕРЕЯ</h1><img height="164" width="286" src="img/interior-1.jpg" alt="photo-1"><a class="btn prev" href="">НАЗАД</a><a class="btn next" href="">ВПЕРЕД</a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="block">
+          <div class="row">
+            <div class="contacts">
+              <div class="col col-5">
+                <h1>КОНТАКТНАЯ ИНФОРМАЦИЯ</h1>
+                <div class="articles">
+                  <p>BARBERSHOP «BORODINSKI» <br>АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13 <br>ТЕЛЕФОН: +7 (495) 666-02-666</p>
+                </div>
+                <div class="articles last-child">
+                  <div class="working-hours">
+                    <p>ВРЕМЯ РАБОТЫ:<br>ПН — ПТ: С 10:00 ДО 22:00<br>СБ — ВС: С 10:00 ДО 19:00</p>
+                  </div>
+                </div><a class="btn prev" href="">КАК ПРОЕХАТЬ</a><a class="btn" href="">ОБРАТНАЯ СВЯЗЬ</a>
+              </div>
+            </div>
+            <div class="enroll">
+              <div class="col col-5 offset-2">
+                <form action="#" id="enroll-form" method="post">
+                  <h1>ЗАПИСАТЬСЯ</h1>
+                  <p>УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ, И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ</p>
+                  <label class="enroll-label" for="enroll-date">
+                    <input type="text" id="enroll-date" name="date" placeholder="Дата ДД/ММ">
+                  </label>
+                  <label class="enroll-label" for="enroll-time">
+                    <input type="text" id="enroll-time" name="time" placeholder="Время ЧЧ/ММ">
+                  </label>
+                  <label class="enroll-label" for="enroll-name">
+                    <input type="text" id="enroll-name" name="name" placeholder="Ваше имя">
+                  </label>
+                  <label class="enroll-label" for="enroll-phone">
+                    <input type="text" id="enroll-phone" name="phone" placeholder="Телефон">
+                  </label>
+                  <input class="btn" type="submit" value="ОТПРАВИТЬ">
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="adress">
+            <div class="col col-4">
+              <p>BARBERSHOP «BORODINSKI»<br>АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13<br>ТЕЛЕФОН: +7 (495) 666-02-666</p>
+            </div>
+          </div>
+          <div class="social-icons">
+            <div class="col col-4">
+              <p>ДАВАЙТЕ ДРУЖИТЬ!</p><a class="link vk" href="" target="_blank"></a><a class="link fb" href="" target="_blank"></a><a class="link insta" href="" target="_blank"></a>
+            </div>
+          </div>
+          <div class="designer">
+            <div class="col col-2 offset-2">
+              <p>ДИЗАЙН САЙТА</p><a class="btn" href="http://glukhanko.ru/">GLUKHANKO.RU</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
+</html>

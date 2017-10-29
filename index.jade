@@ -1,0 +1,115 @@
+doctype html
+html(lang = "ru")
+	head
+		title= "Barbershop"
+		meta(charset = "utf-8")
+		link(href="styles/css.css" rel="stylesheet")
+		link(href="styles/reset.css" rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet")
+	body.body
+		header.header
+			.container
+				nav.navigation
+					ul
+						li(class="active")
+							a(href='index.html') Главная
+						li
+							a(href='') Информация
+						li
+							a(href='') Новости
+						li
+							a(href='price.html') Прайс-лист
+						li
+							a(href='shop.html') Магазин
+						li
+							a(href='') Контакты
+						li.login
+							a(href='') Вход
+		main.main-index
+			.container
+				.logo
+				.feature
+					.row
+						.feature-item
+							.col.col-4
+								h1 БЫСТРО
+								p МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО, И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+							.feature-item.col.col-4
+								h1 КРУТО
+								p ЗАБУДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+							.feature-item.col.col-4
+								h1 ДОРОГО
+								p НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+				section.block
+					.row
+						.news
+							.col.col-5
+								h1 НОВОСТИ
+								.articles
+									p НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+									p.date 25 сентября
+								.articles.last-child
+									p В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД, ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+									p.date 19 сентября
+								a(href="" class="btn") ВСЕ НОВОСТИ
+						.gallery
+							.col.col-5.offset-2
+								h1 ФОТОГАЛЕРЕЯ
+								img(class="" height="164" width="286" src="img/interior-1.jpg" alt="photo-1")
+								a(href="" class="btn prev") НАЗАД
+								a(href="" class="btn next") ВПЕРЕД
+				section.block
+					.row
+						.contacts
+							.col.col-5
+								h1 КОНТАКТНАЯ ИНФОРМАЦИЯ
+								.articles
+									p BARBERSHOP «BORODINSKI» 
+										br
+										|АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13 
+										br
+										|ТЕЛЕФОН: +7 (495) 666-02-666
+								.articles.last-child
+									.working-hours
+										p ВРЕМЯ РАБОТЫ:
+											br
+											|ПН — ПТ: С 10:00 ДО 22:00
+											br
+											|СБ — ВС: С 10:00 ДО 19:00
+								a(href="" class="btn prev") КАК ПРОЕХАТЬ
+								a(href="" class="btn") ОБРАТНАЯ СВЯЗЬ
+						.enroll
+							.col.col-5.offset-2
+								form(action="#" id="enroll-form" method="post")
+									h1 ЗАПИСАТЬСЯ
+									p УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ, И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+									label(class="enroll-label" for="enroll-date")
+										input(type="text" id="enroll-date" name="date" placeholder="Дата ДД/ММ")
+									label(class="enroll-label" for="enroll-time")
+										input(type="text" id="enroll-time" name="time" placeholder="Время ЧЧ/ММ")
+									label(class="enroll-label" for="enroll-name")
+										input(type="text" id="enroll-name" name="name" placeholder="Ваше имя")
+									label(class="enroll-label" for="enroll-phone")
+										input(type="text" id="enroll-phone" name="phone" placeholder="Телефон")
+									input(type="submit" class="btn" value="ОТПРАВИТЬ")
+		footer.footer
+			.container
+				.row
+					.adress
+						.col.col-4
+							p BARBERSHOP «BORODINSKI»
+								br
+								|АДРЕС: Г. МОСКВА, УЛ. СОБАКИ ПАВЛОВА, Д. 13
+								br
+								|ТЕЛЕФОН: +7 (495) 666-02-666
+					.social-icons
+						.col.col-4
+							p ДАВАЙТЕ ДРУЖИТЬ!
+							a(href="" class="link vk" target="_blank")
+							a(href="" class="link fb" target="_blank")
+							a(href="" class="link insta" target="_blank")
+					.designer
+						.col.col-2.offset-2
+							p ДИЗАЙН САЙТА
+							a(href="http://glukhanko.ru/" class="btn") GLUKHANKO.RU
+	script(src="js/main.js")

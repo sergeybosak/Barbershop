@@ -9,7 +9,7 @@
 * [Главная](http://sergeybosak.github.io/barbershop)
 * [Портфолио](http://sergeybosak.github.io/barbershop/portfolio.html)
 * [Запись](http://sergeybosak.github.io/barbershop/form.html)
-* [Вход]http://sergeybosak.github.io/barbershop/login.html)
+* [Вход](http://sergeybosak.github.io/barbershop/login.html)
 
 ## Технические подробности
 

@@ -7,9 +7,8 @@
 Сайт стильного, модного, молодёжного барбершопа, адаптированный под мобильные, планшетные, десктопные устройства. Сайт состоит из четырёх страниц (главная, портфолио, запись, вход), всплывающей (при клике на ссылку "вход") формы входа. Сетка сверстана с помощью резины и флексбоксов (с префиксами). Ни один фреймворк или библиотека при разработке не пострадали.
 
 * [Главная](http://sergeybosak.github.io/barbershop)
-* [Портфолио](http://sergeybosak.github.io/barbershop/portfolio.html)
-* [Запись](http://sergeybosak.github.io/barbershop/form.html)
-* [Вход](http://sergeybosak.github.io/barbershop/login.html)
+* [Прайс-лист](https://sergeybosak.github.io/barbershop/price.html)
+* [Магазин](https://sergeybosak.github.io/barbershop/shop.html)
 
 ## Технические подробности
 

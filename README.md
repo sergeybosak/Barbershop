@@ -1,6 +1,6 @@
 # Barbershop
 
-* Сайт: [Barbershop-Borodinski](http://sergeybosak.github.io/barbershop)
+* Сайт: [Barbershop](http://sergeybosak.github.io/barbershop)
 
 ## Описание
 

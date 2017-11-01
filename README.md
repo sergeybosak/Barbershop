@@ -1,15 +1,15 @@
 # Barbershop
 
-* Сайт: [Barbershop-Borodinski](https://yamantakam.github.io/Barbershop-Borodinski/)
+* Сайт: [Barbershop-Borodinski](http://sergeybosak.github.io/barbershop)
 
 ## Описание
 
 Сайт стильного, модного, молодёжного барбершопа, адаптированный под мобильные, планшетные, десктопные устройства. Сайт состоит из четырёх страниц (главная, портфолио, запись, вход), всплывающей (при клике на ссылку "вход") формы входа. Сетка сверстана с помощью резины и флексбоксов (с префиксами). Ни один фреймворк или библиотека при разработке не пострадали.
 
-* [Главная](https://yamantakam.github.io/Barbershop-Borodinski/)
-* [Портфолио](https://yamantakam.github.io/Barbershop-Borodinski/portfolio.html)
-* [Запись](https://yamantakam.github.io/Barbershop-Borodinski/form.html)
-* [Вход](https://yamantakam.github.io/Barbershop-Borodinski/login.html)
+* [Главная](http://sergeybosak.github.io/barbershop)
+* [Портфолио](http://sergeybosak.github.io/barbershop/portfolio.html)
+* [Запись](http://sergeybosak.github.io/barbershop/form.html)
+* [Вход]http://sergeybosak.github.io/barbershop/login.html)
 
 ## Технические подробности
 
